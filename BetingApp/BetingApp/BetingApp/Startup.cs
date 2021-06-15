@@ -1,9 +1,14 @@
+using BettingApp.Data;
+using BettingApp.Scheduler;
+using EasyCronJob.Core;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using System;
 
 namespace BettingApp
 {
@@ -19,15 +24,24 @@ namespace BettingApp
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<UltraPlayDbContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("BettingApp"))
+            );
 
             services.AddControllers();
+            
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "BettingApp", Version = "v1" });
             });
+
+            services.ApplyResulation<CronJobService>(options =>
+            {
+                options.CronExpression = "* * * * *";
+                options.TimeZoneInfo = TimeZoneInfo.Local;
+            });
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace BettingApp.Models
+namespace BettingApp.Configurations
 {
-    public class Outright : Match
+    public class BetConfiguration
     {
     }
 }

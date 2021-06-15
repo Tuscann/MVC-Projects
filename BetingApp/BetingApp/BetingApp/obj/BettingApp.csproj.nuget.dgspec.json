@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Az\\Documents\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj": {}
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Az\\Documents\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj": {
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Az\\Documents\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj",
+        "projectUniqueName": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj",
         "projectName": "BettingApp",
-        "projectPath": "C:\\Users\\Az\\Documents\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj",
-        "packagesPath": "C:\\Users\\Az\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Az\\Documents\\BetingApp\\BetingApp\\BetingApp\\obj\\",
+        "projectPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\BetingApp\\BetingApp\\BetingApp\\BettingApp.csproj",
+        "packagesPath": "C:\\Users\\zhivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\BetingApp\\BetingApp\\BetingApp\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Az\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\zhivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -44,7 +40,29 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Cronos": {
+              "target": "Package",
+              "version": "[0.7.1, )"
+            },
+            "EasyCronJob.Core": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[10.2.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite.Core": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.7, )"
             },
@@ -71,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.4.21255.9\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
