@@ -8,13 +8,13 @@ namespace BettingApp.Configurations
     {
         public void Configure(EntityTypeBuilder<Sport> builder)
         {
-            builder.HasKey(x => x.Id);
+            builder.HasKey(sport => sport.Id);
 
-            builder.HasMany(x => x.Events)
-                .WithOne(e => e.Sport)
-                .HasForeignKey(x => x.SportId);
+            builder.HasMany(sport => sport.Events)
+                .WithOne(even => even.Sport)
+                .HasForeignKey(even => even.SportId);
 
-            builder.Property(x => x.Name)
+            builder.Property(sport => sport.Name)
                 .HasMaxLength(128);
         }
     }

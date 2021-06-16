@@ -1,10 +1,6 @@
 ﻿using BettingApp.Configurations;
 using BettingApp.Models;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace BettingApp.Data
 {
@@ -16,8 +12,9 @@ namespace BettingApp.Data
 
         public DbSet<Sport> Sports { get; set; }
         public DbSet<Event> Events { get; set; }
-        //public DbSet<Bet> Bets { get; set; }
-        //public DbSet<Odd> Odds { get; set; }
+        public DbSet<Match> Matches { get; set; }
+        public DbSet<Bet> Bets { get; set; }
+        public DbSet<Odd> Odds { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -25,6 +22,14 @@ namespace BettingApp.Data
             modelBuilder.ApplyConfiguration(new MatchConfiguration());
 
             base.OnModelCreating(modelBuilder);
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder.UseSqlServer("Server=localhost\\MSSQLSERVER07;Database=UltraPlay;Trusted_Connection=True;");
+            }
         }
     }
 }

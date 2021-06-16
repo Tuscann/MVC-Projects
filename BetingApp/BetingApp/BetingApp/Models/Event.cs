@@ -5,19 +5,21 @@ namespace BettingApp.Models
 {
     public class Event
     {
-        [XmlAttribute()]
-        public string Name { get; set; }
-        [XmlAttribute(AttributeName ="ID")]        
+        [XmlAttribute(AttributeName = "ID")]
         public long Id { get; set; }
-        [XmlAttribute()]
+
+        [XmlAttribute]
+        public string Name { get; set; }
+        
+        [XmlAttribute]
         public bool IsLive { get; set; }
         [XmlAttribute(AttributeName = "CategoryID")]
+
         public long CategoryId { get; set; }
 
-        //[XmlElement(ElementName = "Match")]
-        //public List<Match> Matches { get; set; }
+        [XmlElement(ElementName = "Match")]
+        public List<Match> Matches { get; set; }
         public long SportId { get; set; }
         public Sport Sport { get; set; }
-
     }
 }

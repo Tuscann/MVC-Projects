@@ -7,7 +7,7 @@ namespace BettingApp.Models
     {
         [XmlAttribute(AttributeName = "ID")]
         public long Id;
-        [XmlAttribute()]
+        [XmlAttribute]
         public string Name;
 
         [XmlElement(ElementName = "Event")]

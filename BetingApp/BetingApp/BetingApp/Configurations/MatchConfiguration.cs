@@ -8,19 +8,19 @@ namespace BettingApp.Configurations
     {
         public void Configure(EntityTypeBuilder<Match> builder)
         {
-            builder.HasKey(x => x.Id);
-            //builder.HasMany(match => match.Bets)
-            //  .WithOne(bet => bet.Match)
-            //  .HasForeignKey(bet => bet.MatchId);
+            builder.HasKey(match => match.Id);
+            builder.HasMany(match => match.Bets)
+              .WithOne(bet => bet.Match)
+              .HasForeignKey(bet => bet.MatchId);
 
-            //builder.HasOne(match => match.Event)
-            //    .WithMany(eve => eve.Matches)
-            //    .HasForeignKey(match => match.EventId);
+            builder.HasOne(match => match.Event)
+                .WithMany(eve => eve.Matches)
+                .HasForeignKey(match => match.EventId);
 
-            builder.Property(x => x.Name)
+            builder.Property(match => match.Name)
                 .HasMaxLength(128);
 
-            builder.Property(x => x.MatchType)
+            builder.Property(match => match.MatchType)
                .HasMaxLength(16);
         }
     }

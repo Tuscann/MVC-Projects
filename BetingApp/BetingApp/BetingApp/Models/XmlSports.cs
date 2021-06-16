@@ -3,7 +3,7 @@ using System.Xml.Serialization;
 
 namespace BettingApp.Models
 {
-    [XmlRoot()]
+    [XmlRoot]
     public class XmlSports
     {
         [XmlElement(ElementName = "Sport")]

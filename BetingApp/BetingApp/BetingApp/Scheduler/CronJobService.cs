@@ -14,7 +14,6 @@ namespace BettingApp.Scheduler
 {
     public class CronJobService: EasyCronJob.Abstractions.CronJobService
     {
-        private System.Timers.Timer _timer;
         private const string URL = "https://sports.ultraplay.net/sportsxml";
         private string urlParameters = "?clientKey=b4dde172-4e11-43e4-b290-abdeb0ffd711&sportId=2357&days=7";
 
