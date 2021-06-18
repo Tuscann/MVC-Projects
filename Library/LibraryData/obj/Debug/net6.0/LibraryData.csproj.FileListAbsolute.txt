@@ -1,0 +1,15 @@
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\LibraryData.deps.json
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\LibraryData.runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\LibraryData.runtimeconfig.dev.json
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\LibraryData.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\ref\LibraryData.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\bin\Debug\net6.0\LibraryData.pdb
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\ref\LibraryData.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.pdb
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryData\obj\Debug\net6.0\LibraryData.genruntimeconfig.cache
