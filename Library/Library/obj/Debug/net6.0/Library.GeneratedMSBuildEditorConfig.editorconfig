@@ -12,7 +12,11 @@ build_property.RazorLangVersion = 5.0
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = C:\Users\Az\Documents\MVC-Projects\Library\Library
 build_property._RazorSourceGeneratorDebug = 
-build_property._RazorSourceGeneratorLog = 
+build_property._RazorSourceGeneratorHeapDumps = 
+
+[c:/Users/Az/Documents/MVC-Projects/Library/Library/Views/Catalog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2F0YWxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
 
 [c:/Users/Az/Documents/MVC-Projects/Library/Library/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=

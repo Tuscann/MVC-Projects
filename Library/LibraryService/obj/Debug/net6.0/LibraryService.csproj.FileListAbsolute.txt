@@ -1,0 +1,15 @@
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\LibraryService.deps.json
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\LibraryService.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\ref\LibraryService.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\LibraryService.pdb
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\LibraryData.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\bin\Debug\net6.0\LibraryData.pdb
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.csproj.CopyComplete
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\ref\LibraryService.dll
+C:\Users\Az\Documents\MVC-Projects\Library\LibraryService\obj\Debug\net6.0\LibraryService.pdb

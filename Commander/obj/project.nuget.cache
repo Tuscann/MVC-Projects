@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QW3m1k9u4l871+9Lu10g+3r1fiiN6n02csrQajws/hph71SReZEt/69GwmJyjJINUDQuZ7W32jHMRfvM0cUV7g==",
+  "dgSpecHash": "/B2zBVo+H6haVlzpd/tq46x399skpB4wqCVSyRCYvxRmujcsLO9qmM7+OAI5dFbI1bpk4XlKNiHuuxJ6jHCDdQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Az\\Documents\\PROJECTS\\Commander\\Commander.csproj",
+  "projectFilePath": "C:\\Users\\Az\\Documents\\MVC-Projects\\Commander\\Commander.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Az\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\Az\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

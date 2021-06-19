@@ -3,8 +3,9 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using LibraryData;
 using Microsoft.EntityFrameworkCore;
+using LibraryService;
+using LibraryData;
 
 namespace Library
 {
@@ -20,11 +21,12 @@ namespace Library
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc();
+            services.AddSingleton(Configuration);            
+            services.AddScoped<ILibraryAsset, LibraryAssetService>();            
+
             services.AddDbContext<LibraryDbContext>(options => 
                 options.UseSqlServer(Configuration.GetConnectionString("LibraryConnection")));
-            services.AddControllersWithViews().AddControllersAsServices();
-           
-            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
