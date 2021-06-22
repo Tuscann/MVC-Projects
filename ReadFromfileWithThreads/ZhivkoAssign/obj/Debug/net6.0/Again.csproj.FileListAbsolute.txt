@@ -1,0 +1,15 @@
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\Again.exe
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\Again.deps.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\Again.runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\Again.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\ref\Again.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\bin\Debug\net6.0\Again.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\ref\Again.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\Again\obj\Debug\net6.0\Again.genruntimeconfig.cache

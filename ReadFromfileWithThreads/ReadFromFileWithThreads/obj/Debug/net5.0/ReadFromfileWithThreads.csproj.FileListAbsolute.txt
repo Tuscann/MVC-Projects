@@ -1,0 +1,16 @@
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.exe
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.deps.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.runtimeconfig.dev.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ref\ReadFromfileWithThreads.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\bin\Debug\net5.0\ReadFromfileWithThreads.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ref\ReadFromfileWithThreads.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.genruntimeconfig.cache
