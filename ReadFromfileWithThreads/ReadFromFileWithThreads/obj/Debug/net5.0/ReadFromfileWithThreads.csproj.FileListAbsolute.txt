@@ -14,3 +14,19 @@ C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThrea
 C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ref\ReadFromfileWithThreads.dll
 C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.pdb
 C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ReadFromfileWithThreads\obj\Debug\net5.0\ReadFromfileWithThreads.genruntimeconfig.cache
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.exe
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.deps.json
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.runtimeconfig.json
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.runtimeconfig.dev.json
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.dll
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ref\ReadFromFileWithThreads.dll
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\bin\Debug\net5.0\ReadFromFileWithThreads.pdb
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.csprojAssemblyReference.cache
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.AssemblyInfoInputs.cache
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.AssemblyInfo.cs
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.csproj.CoreCompileInputs.cache
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.dll
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ref\ReadFromFileWithThreads.dll
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.pdb
+C:\Users\zhivk\Desktop\zHIVKO TEST\MVC-Projects\ReadFromfileWithThreads\ReadFromFileWithThreads\obj\Debug\net5.0\ReadFromFileWithThreads.genruntimeconfig.cache

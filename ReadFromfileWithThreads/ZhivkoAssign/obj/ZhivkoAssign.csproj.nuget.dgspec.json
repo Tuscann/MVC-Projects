@@ -1,36 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj": {}
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj": {
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj",
+        "projectUniqueName": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj",
         "projectName": "ZhivkoAssign",
-        "projectPath": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj",
-        "packagesPath": "C:\\Users\\Az\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\obj\\",
+        "projectPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\ZhivkoAssign.csproj",
+        "packagesPath": "C:\\Users\\zhivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ZhivkoAssign\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Az\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\zhivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +37,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -58,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

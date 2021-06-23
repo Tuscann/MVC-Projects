@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bXfEf5cnl086Kw6+8RSonYulUN9IJ/htWSUkumj33qLVCdced5oUxAA49I0F6b0k4RaFVqBFc9WiSgyZ0vZkEA==",
+  "dgSpecHash": "YAKg5l4RoJYf9AtsIhJ4hSPTjiE8gb0sd2MKzsOyqBk8XIpEUdtql47kAn9nNtMwYe5Y4uCoVXWRaI3AlbwYhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Az\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.5\\microsoft.netcore.app.host.win-x64.5.0.5.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

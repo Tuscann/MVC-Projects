@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj": {}
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj": {
+    "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
+        "projectUniqueName": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
         "projectName": "ReadFromFileWithThreads",
-        "projectPath": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
-        "packagesPath": "C:\\Users\\Az\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Az\\Documents\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\obj\\",
+        "projectPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\ReadFromFileWithThreads.csproj",
+        "packagesPath": "C:\\Users\\zhivk\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\zhivk\\Desktop\\zHIVKO TEST\\MVC-Projects\\ReadFromfileWithThreads\\ReadFromFileWithThreads\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Az\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\zhivk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -53,18 +49,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[5.0.5, 5.0.5]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-preview.5.21302.13\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

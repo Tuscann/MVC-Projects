@@ -1,60 +1,74 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace Again
 {
     class Program
     {
-        static async Task Main()
+        public static void Main()
         {
             string dirPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string fileName = Path.Combine(dirPath, "ZhivkoDesktopFile.txt");
+            string fileName = Path.Combine(dirPath, "zhivko.txt");
 
-            // Queue writeQueue = new Queue();
-            // Queue readQueue = new Queue();
+            Queue<string> writeQueue = new Queue<string>();
+            Queue<string> readQueue = new Queue<string>();
 
-            Random random = new Random();
+            var writeThread = new Thread(() => { WriteToFile(fileName, writeQueue, readQueue); });
+            var goalThread = new Thread(() => { new CustomMessage("Goooooooal!", 1000).CreateMessage(writeQueue); });
+            var penaltyThread = new Thread(() => { new CustomMessage("Penalty", 2000).CreateMessage(writeQueue); });
+            var readThread = new Thread(() => { ReadFile(readQueue); });
 
-            string longString = "dam" + random.Next(3, 56);
+            writeThread.Start();
+            readThread.Start();
+            goalThread.Start();
+            penaltyThread.Start();
+        }
 
-            UnicodeEncoding uniencoding = new UnicodeEncoding();
+        private static void ReadFile(Queue<string> readQueue)
+        {
+            var stopAt = DateTime.Now.AddMinutes(1);
 
-            byte[] result = uniencoding.GetBytes("12");
+            while (DateTime.Now < stopAt)
+            {
+                readQueue.TryDequeue(out var nextMessage);
+
+                if (nextMessage != null)
+                {
+                    Console.WriteLine(nextMessage);
+                }
+                else
+                {
+                    Thread.Sleep(250);
+                }
+            }
+        }
+
+        private static void WriteToFile(string fileName, Queue<string> writeQueue, Queue<string> readQueue)
+        {
+            var stopAt = DateTime.Now.AddMinutes(1);
 
             using (FileStream fileStream = new FileStream(fileName, FileMode.OpenOrCreate))
-            using (StreamWriter sw = new StreamWriter(fileStream))
+            using (StreamWriter streamWriter = new StreamWriter(fileStream))
             {
-                
-                var test = new Thread(() => { Thread1(fileName);}) ;
-                test.Start();
-            }
-
-
-            using (StreamWriter stream = new StreamWriter(fileName, true))
-            {
-              
-            
-                // List<Task> tasksList = new List<Task>
-                // {
-                //     Task.Factory.StartNew(() => { ReadFileAsync(dirPath, fileName); }),
-                //     Task.Factory.StartNew(() => { WriteFileAsync(fileName, longString); }),
-                // };
-            }
-            
-            using (StreamReader streamReader = new StreamReader(fileName, true))
-            {
-                while (true)
+                while (DateTime.Now < stopAt)
                 {
-                    string? line = streamReader.ReadLine();
-                    if (line != null)
+                    writeQueue.TryDequeue(out var nextMessage);
+
+                    if (nextMessage != null)
                     {
-                        Console.WriteLine(line);
+                        try
+                        {
+                            streamWriter.WriteLine(nextMessage);
+                            streamWriter.Flush();
+                            readQueue.Enqueue(nextMessage);
+                        }
+                        catch
+                        {
+                            writeQueue.Enqueue(nextMessage);
+                        }
                     }
                     else
                     {
@@ -62,78 +76,34 @@ namespace Again
                     }
                 }
             }
+        }
+    }
 
-            ExecuteSynchronousCode();
+    public class CustomMessage
+    {
+        public string Message { get; }
+        public int TimeOut { get; }
+
+        public CustomMessage(string message, int timeOut)
+        {
+            Message = message;
+            TimeOut = timeOut;
         }
 
-        public static void Thread1(string fileName)
+        public void CreateMessage(Queue<string> writeQueue)
         {
-            string name = "thread1111";
-            int id = 12;
-            int count = 1;
+            var date = DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss.fff tt");
 
-            while (count < 10)
+            var count = 1;
+
+            while (count < 9)
             {
-                using (FileStream fileStream = new FileStream(fileName, FileMode.OpenOrCreate))
-                using (StreamWriter sw = new StreamWriter(fileStream))
-                {
-                    sw.WriteLine(name);
-                    count++;
-                    Thread.Sleep(1000);
-                }
+                writeQueue.Enqueue($"Message : {Message} - Time : {date} - ThreadId : {Thread.CurrentThread.ManagedThreadId}");
+
+                Thread.Sleep(TimeOut);
+
+                count += 1;
             }
-        }
-
-        public static void Thread2(StreamWriter streamReader)
-        {
-            string name = "thread2";
-            int id = 12;
-            int count = 1;
-
-            while (count < 10)
-            {
-                streamReader.WriteLine(name);
-                count++;
-                Thread.Sleep(1000);
-            }
-        }
-
-        private static async Task ReadFileAsync(string dirPath, string fileName)
-        {
-            Console.WriteLine("ASYNC READ has started.");
-
-            using (StreamReader outputFile = new StreamReader(Path.Combine(dirPath, fileName)))
-            {
-                string line = outputFile.ReadLine();
-
-                if (line != null)
-                {
-                    Console.WriteLine(line);
-                }
-
-                await outputFile.ReadLineAsync();
-            }
-
-            Console.WriteLine("ASYNC READ has completed.");
-        }
-
-        private static async Task WriteFileAsync(string fileName, string content)
-        {
-            Console.WriteLine("ASYNC WRITE has started.");
-
-            using (StreamWriter stream = new StreamWriter(fileName, true))
-            {
-                await stream.WriteLineAsync(content);
-            }
-
-            Console.WriteLine("ASYNC WRITE has completed.");
-        }
-
-        static void ExecuteSynchronousCode()
-        {
-            Console.WriteLine();
-            Console.WriteLine("Executing Code while Async task runs...");
-            Console.WriteLine();
         }
     }
 }
