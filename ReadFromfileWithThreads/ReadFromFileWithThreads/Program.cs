@@ -52,8 +52,6 @@ namespace ReadFromFileWithThreads
                     },
 
                    new CustomData {Name = i, CreationTime = DateTime.Now.Ticks});
-
-                
             }
 
             Task.WaitAll(taskArray);

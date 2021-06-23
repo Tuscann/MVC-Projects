@@ -1,32 +1,101 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Again
 {
     class Program
     {
-        static void Main()
+        static async Task Main()
         {
             string dirPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string fileName = "ZhivkoDesktopFile.txt";
+            string fileName = Path.Combine(dirPath, "ZhivkoDesktopFile.txt");
+
+            // Queue writeQueue = new Queue();
+            // Queue readQueue = new Queue();
 
             Random random = new Random();
 
             string longString = "dam" + random.Next(3, 56);
 
-            List<Task> tasksList = new List<Task>
+            UnicodeEncoding uniencoding = new UnicodeEncoding();
+
+            byte[] result = uniencoding.GetBytes("12");
+
+            using (FileStream fileStream = new FileStream(fileName, FileMode.OpenOrCreate))
+            using (StreamWriter sw = new StreamWriter(fileStream))
             {
-                Task.Factory.StartNew(async () => { await WriteFileAsync(dirPath, fileName, longString); }),
-                Task.Factory.StartNew(async () => { await ReadFileAsync(dirPath, fileName); }),
-                Task.Factory.StartNew(async () => { await ReadFileAsync(dirPath, fileName); }),
-                Task.Factory.StartNew(async () => { await WriteFileAsync(dirPath, fileName, longString); }),
-            };
+                
+                var test = new Thread(() => { Thread1(fileName);}) ;
+                test.Start();
+            }
+
+
+            using (StreamWriter stream = new StreamWriter(fileName, true))
+            {
+              
+            
+                // List<Task> tasksList = new List<Task>
+                // {
+                //     Task.Factory.StartNew(() => { ReadFileAsync(dirPath, fileName); }),
+                //     Task.Factory.StartNew(() => { WriteFileAsync(fileName, longString); }),
+                // };
+            }
+            
+            using (StreamReader streamReader = new StreamReader(fileName, true))
+            {
+                while (true)
+                {
+                    string? line = streamReader.ReadLine();
+                    if (line != null)
+                    {
+                        Console.WriteLine(line);
+                    }
+                    else
+                    {
+                        Thread.Sleep(100);
+                    }
+                }
+            }
+
             ExecuteSynchronousCode();
-            Task.WaitAll(tasksList.ToArray());
+        }
+
+        public static void Thread1(string fileName)
+        {
+            string name = "thread1111";
+            int id = 12;
+            int count = 1;
+
+            while (count < 10)
+            {
+                using (FileStream fileStream = new FileStream(fileName, FileMode.OpenOrCreate))
+                using (StreamWriter sw = new StreamWriter(fileStream))
+                {
+                    sw.WriteLine(name);
+                    count++;
+                    Thread.Sleep(1000);
+                }
+            }
+        }
+
+        public static void Thread2(StreamWriter streamReader)
+        {
+            string name = "thread2";
+            int id = 12;
+            int count = 1;
+
+            while (count < 10)
+            {
+                streamReader.WriteLine(name);
+                count++;
+                Thread.Sleep(1000);
+            }
         }
 
         private static async Task ReadFileAsync(string dirPath, string fileName)
@@ -48,13 +117,14 @@ namespace Again
             Console.WriteLine("ASYNC READ has completed.");
         }
 
-        private static async Task WriteFileAsync(string dirPath, string fileName, string content)
+        private static async Task WriteFileAsync(string fileName, string content)
         {
             Console.WriteLine("ASYNC WRITE has started.");
 
-            StreamWriter stream = new StreamWriter(fileName, true);
-      
-            await stream.WriteLineAsync("Fourth line");
+            using (StreamWriter stream = new StreamWriter(fileName, true))
+            {
+                await stream.WriteLineAsync(content);
+            }
 
             Console.WriteLine("ASYNC WRITE has completed.");
         }

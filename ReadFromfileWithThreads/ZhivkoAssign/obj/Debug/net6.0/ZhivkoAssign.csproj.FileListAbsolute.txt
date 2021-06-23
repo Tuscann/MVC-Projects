@@ -1,0 +1,15 @@
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ZhivkoAssign.exe
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ZhivkoAssign.deps.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ZhivkoAssign.runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ZhivkoAssign.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ref\ZhivkoAssign.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\bin\Debug\net6.0\ZhivkoAssign.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ref\ZhivkoAssign.dll
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.pdb
+C:\Users\Az\Documents\MVC-Projects\ReadFromfileWithThreads\ZhivkoAssign\obj\Debug\net6.0\ZhivkoAssign.genruntimeconfig.cache
