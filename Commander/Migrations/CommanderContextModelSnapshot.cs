@@ -27,7 +27,6 @@ namespace Commander.Migrations
 
                     b.Property<string>("HowTo")
                         .IsRequired()
-                        .HasMaxLength(250)
                         .HasColumnType("nvarchar(250)");
 
                     b.Property<string>("Line")
