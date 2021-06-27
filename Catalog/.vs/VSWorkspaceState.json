@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Catalog.Api",
+    "\\Catalog.Api\\bin",
+    "\\Catalog.Api\\Controllers",
+    "\\Catalog.Api\\Entities",
+    "\\Catalog.Api\\kubernetes",
+    "\\Catalog.Api\\Properties",
+    "\\Catalog.Api\\Repositories",
+    "\\Catalog.Api\\Settings",
+    "\\Catalog.UnitTests"
+  ],
+  "PreviewInSolutionExplorer": false
+}

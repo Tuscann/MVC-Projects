@@ -2,8 +2,8 @@ using System;
 using System.Linq;
 using System.Net.Mime;
 using System.Text.Json;
-using Catalog.Repositories;
-using Catalog.Settings;
+using Catalog.Api.Repositories;
+using Catalog.Api.Settings;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -17,7 +17,7 @@ using MongoDB.Bson.Serialization;
 using MongoDB.Bson.Serialization.Serializers;
 using MongoDB.Driver;
 
-namespace Catalog
+namespace Catalog.Api
 {
     public class Startup
     {
@@ -41,14 +41,22 @@ namespace Catalog
             });
 
             services.AddSingleton<IItemsRepository, MongoDbItemsRepository>();
+
             services.AddControllers(options =>
-                options.SuppressAsyncSuffixInActionNames = false); // Not work for net6.0 
-            services.AddSwaggerGen(c => { c.SwaggerDoc("v1", new OpenApiInfo {Title = "Catalog", Version = "v1"}); });
-            services.AddHealthChecks().AddMongoDb(
-                mongoDbSettings.ConnectionString,
-                name: "mongodb",
-                timeout: TimeSpan.FromSeconds(3),
-                tags: new[] {"ready"});
+            {
+                options.SuppressAsyncSuffixInActionNames = false;
+            });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "Catalog", Version = "v1" });
+            });
+
+            services.AddHealthChecks()
+                .AddMongoDb(
+                    mongoDbSettings.ConnectionString,
+                    name: "mongodb",
+                    timeout: TimeSpan.FromSeconds(3),
+                    tags: new[] { "ready" });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -73,6 +81,7 @@ namespace Catalog
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
+
                 endpoints.MapHealthChecks("/health/ready", new HealthCheckOptions
                 {
                     Predicate = (check) => check.Tags.Contains("ready"),
