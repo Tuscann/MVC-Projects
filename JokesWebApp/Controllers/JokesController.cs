@@ -29,7 +29,7 @@ namespace JokesWebApp.Controllers
             return View();
         }
 
-        // Post: Jokes/ShowSearchForm
+        // POST: Jokes/ShowSearchForm
         public async Task<IActionResult> ShowSearchResults(string SearchPhrase)
         {
             return View("Index", await _context.Joke.Where(joke => joke.JokeQuestion.Contains(SearchPhrase)).ToListAsync());
@@ -43,7 +43,7 @@ namespace JokesWebApp.Controllers
                 return NotFound();
             }
 
-            var joke = await _context.Joke
+            Joke joke = await _context.Joke
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (joke == null)
             {
@@ -58,10 +58,7 @@ namespace JokesWebApp.Controllers
         {
             return View();
         }
-
-        // POST: Jokes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
@@ -92,8 +89,7 @@ namespace JokesWebApp.Controllers
         }
 
         // POST: Jokes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+      
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,JokeQuestion,JokeAnswer")] Joke joke)
@@ -134,7 +130,7 @@ namespace JokesWebApp.Controllers
                 return NotFound();
             }
 
-            var joke = await _context.Joke
+            Joke joke = await _context.Joke
                 .FirstOrDefaultAsync(m => m.Id == id);
             if (joke == null)
             {
@@ -149,7 +145,7 @@ namespace JokesWebApp.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var joke = await _context.Joke.FindAsync(id);
+            Joke joke = await _context.Joke.FindAsync(id);
             _context.Joke.Remove(joke);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
