@@ -1,0 +1,10 @@
+﻿docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=emiliq mongo
+docker stop mongo
+docker start mongo
+
+docker build -t catalog:v1
+docker network create net5tutorial
+docker network ls
+docker run -d --rm --name mongo -p 27017:27017 -v mongodbdata:/data/db -e MONGO_INITDB_ROOT_USERNAME=mongoadmin -e MONGO_INITDB_ROOT_PASSWORD=emiliq --network=net5tutorial mongo
+docker images
+docker run -it --rm -p 8080:80 -e MongoDbSettings:Host=mongo -e MongoDbSettings=Password:emiliq --network=net5tutorial catalog:v1

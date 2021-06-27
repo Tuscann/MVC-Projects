@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Threading;
 
@@ -16,10 +15,10 @@ namespace Again
             Queue<string> writeQueue = new Queue<string>();
             Queue<string> readQueue = new Queue<string>();
 
-            var writeThread = new Thread(() => { WriteToFile(fileName, writeQueue, readQueue); });
-            var goalThread = new Thread(() => { new CustomMessage("Goooooooal!", 1000).CreateMessage(writeQueue); });
-            var penaltyThread = new Thread(() => { new CustomMessage("Penalty", 2000).CreateMessage(writeQueue); });
-            var readThread = new Thread(() => { ReadFile(readQueue); });
+            Thread writeThread = new Thread(() => { WriteToFile(fileName, writeQueue, readQueue); });
+            Thread goalThread = new Thread(() => { new CustomMessage("Goooooooal!", 1000).CreateMessage(writeQueue); });
+            Thread penaltyThread = new Thread(() => { new CustomMessage("Penalty", 2000).CreateMessage(writeQueue); });
+            Thread readThread = new Thread(() => { ReadFile(readQueue); });
 
             writeThread.Start();
             readThread.Start();
@@ -29,7 +28,7 @@ namespace Again
 
         private static void ReadFile(Queue<string> readQueue)
         {
-            var stopAt = DateTime.Now.AddMinutes(1);
+            DateTime stopAt = DateTime.Now.AddMinutes(1);
 
             while (DateTime.Now < stopAt)
             {
@@ -92,9 +91,9 @@ namespace Again
 
         public void CreateMessage(Queue<string> writeQueue)
         {
-            var date = DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss.fff tt");
+            string date = DateTime.Now.ToString("MM/dd/yyyy hh:mm:ss.fff tt");
 
-            var count = 1;
+            int count = 1;
 
             while (count < 9)
             {
