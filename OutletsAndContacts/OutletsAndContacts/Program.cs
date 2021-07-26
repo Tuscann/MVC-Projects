@@ -22,12 +22,7 @@ namespace OutletsAndContacts
                     {
                         if (readOutLets[i].Id == contacts[y].OutletId)
                         {
-                            int index = readOutLets.IndexOf(readOutLets.Where(p => p.Id == readOutLets[i].Id).FirstOrDefault());
-
-                            if (readOutLets[index].Contacts == null)
-                            {
-                                readOutLets[index].Contacts = new List<Contact>();
-                            }
+                            int index = readOutLets.IndexOf(readOutLets.Where(p => p.Id == readOutLets[i].Id).FirstOrDefault());                        
 
                             readOutLets[index].Contacts.Add(contacts[y]);
                         }
