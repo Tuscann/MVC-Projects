@@ -1,0 +1,64 @@
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\appsettings.json
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\DotNet6-webApp (Contacts).exe
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\DotNet6-webApp (Contacts).deps.json
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\DotNet6-webApp (Contacts).runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\DotNet6-webApp (Contacts).dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\ref\DotNet6-webApp (Contacts).dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\DotNet6-webApp (Contacts).pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Humanizer.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\staticwebassets\DotNet6-webApp (Contacts).StaticWebAssets.Manifest.cache
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\scopedcss\bundle\DotNet6-webApp (Contacts).styles.css
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).csproj.CopyComplete
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\ref\DotNet6-webApp (Contacts).dll
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).pdb
+C:\Users\Az\Documents\MVC-Projects\DotNet6-webApp\DotNet6-webApp\obj\Debug\net6.0\DotNet6-webApp (Contacts).genruntimeconfig.cache

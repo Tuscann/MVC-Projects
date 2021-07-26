@@ -1,0 +1,17 @@
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\OutletsAndContacts.exe
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\OutletsAndContacts.deps.json
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\OutletsAndContacts.runtimeconfig.json
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\OutletsAndContacts.dll
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\ref\OutletsAndContacts.dll
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\OutletsAndContacts.pdb
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.csproj.AssemblyReference.cache
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.AssemblyInfoInputs.cache
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.AssemblyInfo.cs
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.csproj.CoreCompileInputs.cache
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.csproj.CopyComplete
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.dll
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\ref\OutletsAndContacts.dll
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.pdb
+C:\Users\Az\Documents\MVC-Projects\OutletsAndContacts\OutletsAndContacts\obj\Debug\net6.0\OutletsAndContacts.genruntimeconfig.cache
